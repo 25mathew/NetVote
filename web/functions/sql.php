@@ -1,4 +1,5 @@
 <?php
+	require_once 'global.php';
     function establishSQL(){
         $conn = mysqli_connect("localhost","<username>","<p>","databasename");
         if(!$conn){

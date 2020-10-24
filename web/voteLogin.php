@@ -13,7 +13,7 @@
 
     <div id="centerPanel" class="CenterContent">
         <h3 id="whiteText" class="contentPanelText1 title">Vote</h3>
-        <form style="display:block">
+        <form action="functions/vote.php" method="post" style="display:block">
             <label for="username">Username</label><br>
             <input type="text" id="tinput" name="username"><br>
 
