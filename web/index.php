@@ -9,6 +9,8 @@
     <title>NetVote</title>
 </head>
 <body>
+<a href="https://codepen.io/ARS" target="_blank"><span>Register</span></a>
 
+<a href="https://codepen.io/ARS" target="_blank"><span>Vote</span></a>
 </body>
 </html>
