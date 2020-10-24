@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css" />
-    <link rel="stylesheet" href="../core.css" />
+    <link rel="stylesheet" href="css/core.css" />
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -10,28 +10,6 @@
 
 
 <body id="flagBackground" class="verticalContent">
-    <div class="topnav" id="myTopnav">
-        <a href="../index.html">Home</a>
-        <a href="../register/RegForm.html">Register</a>
-        <a href="../vote/home" class="active">Vote</a>
-        <a href="">Covid-19 Response</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-
-
-    <!--<header class="sticky">
-        <a href="#" class="logo">Logo</a>
-        <a href="#" class="button">Home</a>
-        <button>Download</button>
-    </header><br />
-
-    <div id="leftPanel">
-        <h4 class="leftPanelText1">VoteSmart</h4>
-        <h1 class="leftPanelText1">The time is now!</h1>
-        <p class="leftPanelText2">Use the provided username and password to login in. Afterwards, you can then begin voting.</p>
-    </div>-->
 
     <div id="centerPanel" class="CenterContent">
         <h3 id="whiteText" class="contentPanelText1 title">Vote</h3>
