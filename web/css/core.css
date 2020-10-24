@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
+:root {
+    --blue: #30A1ED;
+    --red: #EA4235;
+    --black: #000000;
+    --white1: #f8f8f8;
+    --white2: #ffffff;
+    --verticalPadding: 1vh;
+    --horizontalPadding: 1vw;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,7 +17,7 @@
 }
 
 body {
-    background-color: #F8F8F8;
+    background-color: var(--white);
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -15,66 +25,81 @@ body {
     align-content: center;
 }
 
+h1 {
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+h4 {
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+}
+
+.panel {
+    height: 100vh;
+}
 
 #leftPanel {
-    background-color: #30A1ED;
-    height: 100vh;
+    padding-top: var(--verticalPadding);
+    padding-bottom: var(--verticalPadding);
+    padding-left: var(--horizontalPadding);
+    padding-right: var(--horizontalPadding);
+
+    background-color: var(--blue);
     width: 30vw;
 }
 
+#contentPanel {
+    padding-top: var(--verticalPadding);
+    padding-bottom: var(--verticalPadding);
+    padding-left: var(--horizontalPadding);
+    padding-right: var(--horizontalPadding);
+
+    background-color: var(--white1);
+    width: 67vw;
+}
+
+#rightPanel {
+    padding-top: var(--verticalPadding);
+    padding-bottom: var(--verticalPadding);
+    padding-left: var(--horizontalPadding);
+    padding-right: var(--horizontalPadding);
+
+    background-color: var(--red);
+    width: 3vw;
+}
+
 #tinput {
-    border: 2px solid #000000;
+    border: 2px solid var(--black);
     box-sizing: border-box;
     border-radius: 25px;
 }
 
-#contentPanel {
-    height: 100vh;
-    width: 70vw;
-}
+
 #centerPanel {
     min-height: 25vh;
     min-width: 35vw;
 }
 
-#whiteText {
-    color: white;
-}
-
-#flagBackground {
-    background: url("images/american-flag.jpg") no-repeat top center;
-}
 .verticalContent {
     display:block;
     align-content:center;
 }
 
-.leftPanelText1{
-    color: white;
-    font-family: Montserrat;
-    font-weight: 700;
+.leftPanelH1{
+    color: var(--white2);
 }
 
-.leftPanelText2 {
-    color: white;
-    font-family: Montserrat;
-    font-weight: 500;
+.leftPanelH4 {
+    color: var(--white2);
 }
 
-.contentPanelText1 {
-    color: black;
-    font-family: Montserrat;
-    font-weight: 700;
+.contentPanelH1 {
+    color: var(--black);
 }
 
-.contentPanelText2 {
-    color: black;
-    font-family: Montserrat;
-    font-weight: 500;
-}
-
-.block {
-    display:block;
+.contentPanelH4 {
+    color: var(--black);
 }
 
 .CenterContent {
@@ -84,15 +109,7 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 550px;
-    background: rgba(0,0,0,0.8);
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
-
-.CenterContent .title h1 {
-    color: #c5ecfd;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
