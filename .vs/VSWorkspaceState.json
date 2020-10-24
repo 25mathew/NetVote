@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\web",
-    "\\web\\register"
+    "\\web\\css",
+    "\\web\\functions",
+    "\\web\\images",
+    "\\web\\Vote"
   ],
+  "SelectedNode": "\\web\\Vote\\voteLogin.html",
   "PreviewInSolutionExplorer": false
 }
