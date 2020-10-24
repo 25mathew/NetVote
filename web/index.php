@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <p>First paragraph ever</p>
     <p>Second paragraph ever</p>
+    <p>Third paragraph ever</p>
     <title>NetVote</title>
 </head>
 <body>
