@@ -1,6 +1,6 @@
 <?php
 	require_once 'sql.php';
-	if(isset($_POST[''] && isset($_POST['']){ //username and password 
+	if(isset($_POST['username'] && isset($_POST['password']){ //username and password 
 		
 		
 	}
