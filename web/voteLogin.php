@@ -20,8 +20,8 @@
             <label for="password">Password</label><br>
             <input type="password" id="tinput" name="password"> <br>
 
-            <a href="ballot.html" class="button">Submit</a>
-
+            <!--<a href="ballot.html" class="button">Submit</a>-->
+			<input type="submit" value="Submit" class="button">
             <a href="new-password.html" class="button">Lost your password?</a>
         </form>
     </div>
