@@ -20,14 +20,12 @@ $dur: 3s;
 body {
     background: #344557 url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050) 0 0 no-repeat;
     background-size: cover;
-    &:after
-
-{
-    content: '';
-    @extend .absolute-centering;
-    background: rgba(#344557, .85);
-}
-
+    
+    &:after{
+        content: '';
+        @extend .absolute-centering;
+        background: rgba(#344557, .85);
+    }
 }
 
 a {
