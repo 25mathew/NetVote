@@ -1,7 +1,7 @@
 <?php
 	require_once 'global.php';
     function establishSQL(){
-        $conn = mysqli_connect("localhost","<username>","<p>","databasename");
+        $conn = mysqli_connect("localhost","netvote","","netvote");
         if(!$conn){
             exit('Connect Error (' . mysqli_connect_errno() . ') '. mysqli_connect_error());
         }
